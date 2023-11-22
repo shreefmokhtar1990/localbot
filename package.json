@@ -1,0 +1,33 @@
+{
+  "name": "chatgpt-local-application",
+  "version": "1.0.0",
+  "description": "A local application that allows a ChatGPT bot to interact with a specified path on your device. The bot can read, write, create, modify, and study files. The application is integrated with OpenAPI for API endpoint definitions and handling file uploads.",
+  "main": "src/bot/chatgpt.js",
+  "scripts": {
+    "start": "node src/bot/chatgpt.js",
+    "test": "node tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreefmokhtar1990/localbot"
+  },
+  "keywords": [
+    "chatgpt",
+    "openai",
+    "local",
+    "file",
+    "interaction"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreefmokhtar1990/localbot/issues"
+  },
+  "homepage": "https://github.com/shreefmokhtar1990/localbot#readme",
+  "dependencies": {
+    "openai": "^0.27.0"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0"
+  }
+}
